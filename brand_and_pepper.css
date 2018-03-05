@@ -1,0 +1,644 @@
+
+
+/*In general for whole page*/
+
+
+body
+{
+background-color:#5e355c;
+}
+
+.row
+{
+max-width: none;
+}
+
+.column, .columns{
+  min-height: 1px;
+}
+
+h1, h2, h3, h4, h5, h6, p, a {color:#5e355c;}
+h1 {font-family: nexarust; font-size:55px;}
+h2 {font-family:loraitalic; font-size:46px;}
+h3 {font-family:nexarust; font-size:36px;}
+h4 {font-family:loraitalic; font-size:35px;}
+h5 {font-family:loraitalic; font-size:28px;}
+h6 {font-family: 'Open Sans'; font-size:18px;}
+p  {font-family: 'Open Sans'; font-size:16px;}
+*  {font-family: 'Open Sans'; color:#5e355c;}
+button {
+    font-family: opensans_semibold; 
+    font-size:15px;
+    letter-spacing: 0.105rem;
+    height: 60px;
+    border-radius: 10px;
+}
+
+/*Buttons*/
+.orange_button {background-color: #f8a160; color: #5f325d; z-index: 1;}
+.orange_button:hover {background-color: #feac70;}
+.orange_button:focus {background-color: #feac70;} /*#b45610*/
+
+.purple_button {background-color: #5f325d; color: #c7b5c8; z-index: 1;}
+.purple_button:hover {background-color: #7c5b7b; color : #ebe3ea;}
+.purple_button:focus {background-color: #7c5b7b; color : #ebe3ea;}
+/*box-shadow: 7px 7px rgba(226,228,226, 0.6);*/
+
+.light_purple_button {background-color: #c7b5c8; color: #5f325d; z-index: 1;}
+.light_purple_button:hover {background-color: #7c5b7b; color: #ebe3ea;}
+.light_purple_button:focus {background-color: #7c5b7b; color: #ebe3ea;}
+
+.open_pos_btns div:first-child{float:left; margin-right: 5%;}
+
+
+/*Images*/
+.header_image_2, .header_image_3 {display:none;}
+.about_working_here_details img {height:50px;}
+/*.top3sections img {width:100%;}*/
+.mainimages img {width:100%;}
+.open_pos_details_icons div {margin-right:5%;}
+.open_pos_details_icons img{padding-bottom: 5%;}   
+.open_pos_details_icons div  {float:left;} 
+.open_pos_details_icons + p {clear:both;}
+
+/*Text*/
+.about_working_here_details h3 {font-size:18px;}
+.open_positions_details h3 {font-size:24px;}
+.open_pos_details_icons span{font-size:14px;}
+
+
+/*Fonts*/
+  @font-face {
+    font-family: 'lora';
+    src: url('Fonts/Lora/lora-regular-webfont.eot');
+    src: url('Fonts/Lora/lora-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Fonts/Lora/lora-regular-webfont.woff2') format('woff2'),
+         url('Fonts/Lora/lora-regular-webfont.woff') format('woff'),
+         url('Fonts/Lora/lora-regular-webfont.ttf') format('truetype'),
+         url('Fonts/Lora/lora-regular-webfont.svg#sc') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+  @font-face {
+    font-family: 'loraitalic';
+    src: url('Fonts/LoraItalic/lora-italic-webfont.eot');
+    src: url('Fonts/LoraItalic/lora-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Fonts/LoraItalic/lora-italic-webfont.woff2') format('woff2'),
+         url('Fonts/LoraItalic/lora-italic-webfont.woff') format('woff'),
+         url('Fonts/LoraItalic/lora-italic-webfont.ttf') format('truetype'),
+         url('Fonts/LoraItalic/lora-italic-webfont.svg#sc') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+ @font-face {
+    font-family: 'nexarust';
+    src: url('Fonts/TruenaNexaRust/truenoblk-webfont.eot');
+    src: url('Fonts/TruenaNexaRust/truenoblk-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Fonts/TruenaNexaRust/truenoblk-webfont.woff2') format('woff2'),
+         url('Fonts/TruenaNexaRust/truenoblk-webfont.woff') format('woff'),
+         url('Fonts/TruenaNexaRust/truenoblk-webfont.ttf') format('truetype'),
+         url('Fonts/TruenaNexaRust/truenoblk-webfont.svg#sc') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+ @font-face {
+    font-family: 'opensans_semibold';
+    src: url('Fonts/OpenSansSB/opensans-semibold-webfont.eot');
+    src: url('Fonts/OpenSansSB/opensans-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Fonts/OpenSansSB/opensans-semibold-webfont.woff2') format('woff2'),
+         url('Fonts/OpenSansSB/opensans-semibold-webfont.woff') format('woff'),
+         url('Fonts/OpenSansSB/opensans-semibold-webfont.ttf') format('truetype'),
+         url('Fonts/OpenSansSB/opensans-semibold-webfont.svg#sc') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*Breadcrumb ('Home > Career')*/
+.breadcrumb_location
+{
+   border-bottom: 1px solid #d6c8c8;	
+}
+
+.breadcrumb_location div
+{
+	padding-top:15px;
+	padding-bottom:15px;
+	margin-left:20%;
+	font-size:12px;
+}
+
+
+.brcr_careers
+{
+font-weight:bold;
+}
+
+/*Other*/
+
+.dotted_underlined
+{
+border-bottom: 3px dotted rgba(248,161,96, 0.5);
+}
+
+.dotted_underlined_partial
+ {
+border-bottom: 3px dotted rgba(248,161,96, 0.5);
+margin-left: 45%;
+margin-right: 45%;
+margin-bottom: 50px;
+}
+
+.row.about_working_here_details{margin-bottom:50px;}
+
+.about_working_here_div
+{
+    padding-top:75px;
+    padding-bottom:75px;
+}
+
+.row.about_working_here_top
+{
+    text-align:center;
+    margin-bottom:50px;
+}
+
+
+.open_pos_details_icons
+{
+    margin-bottom:50px;
+}
+
+.open_pos_text
+{
+    margin-bottom:50px;
+}
+
+.open_pos_btns
+{
+    margin-bottom:55px;
+}
+
+.dotted_underlined
+{
+    margin-bottom:75px;
+}
+
+.join_our_team_div
+{
+    background-image: url("Images/purple_carpeted_background.jpg");
+    background-size: 100%; background-repeat: no-repeat;
+}
+
+.join_our_team_div h2, .join_our_team_div p
+{
+    color:#ffffff;
+    width:100%;
+}
+
+.submit_cv_btn
+{margin-top:25px;}
+
+.footer_div 
+{
+    padding-bottom:55px;
+}
+
+.footer_div h5
+{
+    font-size:18px;
+    margin-bottom:20px;
+}
+
+.footer_left_wall
+{
+    border-left: 3px dotted rgba(248,161,96, 0.5);
+    height:250px;
+}
+
+.footer_left_wall a
+{
+    cursor:pointer;
+    font-size:12px;
+}
+
+.footer_left_wall a:hover
+{
+    color:#f8a160;
+}
+
+
+
+
+.footer_get_in_touch span
+{
+    font-size:12px;
+}
+
+.fgit_icon {margin-bottom:15px;}
+
+.fgit_icon img{width:55%;}
+
+.clear
+{clear:both;}
+
+.fgit_icon div:first-child{float:left;}
+
+
+.subscribe_input
+{
+    height: 43px;
+    margin-bottom:35px;
+}
+
+.subscribe_details p
+{
+    font-size:12px;
+}
+
+.sub_inp_div
+{
+    float:left;    
+}
+
+.subscribe_input input
+{
+    border:0px;
+    font-size: 10px;
+    line-height: 3;
+    background-color: #f8f5f5;
+    color:#5e355c;
+    
+}
+
+.subscribe_input input::-webkit-input-placeholder {
+    font-size: 10px;
+    line-height: 3;
+    color:#5e355c;   
+}
+
+.submit_btn
+{
+    text-align:center;
+    padding-top:6px;
+    background-color:#5e355c;
+    height:37px;
+    cursor:pointer;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.submit_btn span
+{
+    color:#fff;
+
+}
+
+.social_media_icons
+{
+    text-align:right;
+    margin-bottom:25px;
+}
+
+.copyright
+{
+       text-align:right; 
+}
+
+
+.copyright span
+{
+    font-size:10px;
+
+}
+
+/*Top 3 sections : */
+
+.header_image_1 
+{
+    background-image: url("Images/header_bandp.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height:725px;
+}
+
+.header_image_2 
+{
+    background-image: url("Images/header_sky_scrapers.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height:725px;
+}
+
+
+
+.header_image_3 
+{
+    background-image: url("Images/header_interior.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height:725px;
+}
+
+.top3sections 
+{
+    text-align:center;
+}
+
+.top3sections h1
+{
+    color:#fff;
+}
+
+
+.quote
+{
+    font-family:loraitalic;
+    font-size:26px;
+    color:#fff;
+    margin-bottom:;
+}
+
+.header_image_text
+{
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top: 250px;
+    height:725px;
+}
+
+.services
+{
+    background: rgba(94, 53, 92, 0.6);
+    height:725px;
+}
+
+.cctrader
+{
+    background: rgba(94, 53, 92, 0.6);
+    height:725px;
+}
+
+.cctrader_boxd p
+{
+color:#fff;
+font-size:12px;
+line-height: 1;
+}
+
+.cctrader_boxd 
+{
+border:1px solid #fff;
+padding-left:0.5%;
+padding-right:0.5%;
+padding-top:15px;
+}
+
+.services_q
+{
+    margin-bottom:75px;
+}
+
+.cctrader_q
+{
+    margin-bottom:50px;
+}
+
+.cctrader_btns
+{
+    margin-bottom:50px;
+}
+
+/*Top Menu*/
+
+.top_menu
+{
+  top: 25px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: 1;
+}
+
+.top_menu_btn 
+{
+  padding-top:15px;
+}
+
+.top_menu_btn p
+{
+    color:#fff;
+    font-size:14px;
+}
+
+
+.top_menu_btn:hover
+{
+background-color: #c7b5c8;
+cursor:pointer;
+border-radius: 5px;
+}
+
+.services_dropdown
+{
+display:none;
+top: 55px;
+left: 0;
+bottom: 0;
+right: 0;
+position: absolute;
+z-index: 1;
+height:180px;
+border-radius: 15px;
+}
+
+.sub_menu_btn 
+{
+  padding-top:15px;
+  background-color:#c7b5c8;
+  padding-bottom: 1px;
+}
+
+.sub_menu_btn p
+{
+    color:#5e355c;
+    font-size:12px;
+    font-weight:bold;
+}
+
+
+.sub_menu_btn:hover
+{
+cursor:pointer;
+}
+
+.sub_menu_divider
+{
+    border-bottom:1px solid #5e355c;
+    margin-left:5%;
+    margin-right:5%;
+}
+
+.inv_div
+{
+    height:10px;
+}
+
+
+.top_menu_sm_icon
+{
+    margin-top:17px;
+    cursor:pointer;
+    text-align:center;
+}
+
+.header_images_nav_btns
+{
+top: 315px;
+left: 1500px;
+bottom: 0;
+right: 0;
+position: absolute;
+z-index: 1;
+}
+
+.header_images_nav_btns p 
+{
+color: rgba(255, 255, 255, 0.5);
+font-size:30px;
+cursor:pointer;
+opacity:5;
+}
+
+.header_images_nav_btns p:hover 
+{
+color: rgba(255, 255, 255, 0.9);
+}
+
+.slide_u_r_on
+{
+    color: #fff !important;
+}
+
+.arrow_down_div
+{
+top: 680px;
+left: 0px;
+bottom: 0;
+right: 0;
+position: absolute;
+z-index: 1;
+}
+
+
+/*Media queries for smaller screens*/
+@media screen and (min-width: 800px) {
+
+        .below_top3sections
+        {
+        display:none;
+        }
+}
+
+@media screen and (max-width: 800px) {
+
+        .below_top3sections h2
+        {
+        font-size:16px;
+        }
+
+        .below_top3sections h3
+        {
+        font-size:14px;
+        }
+
+        .below_top3sections h4
+        {
+        font-size:12px;
+        }
+
+        .below_top3sections h5
+        {
+        font-size:10px;
+        }
+
+        .below_top3sections button
+        {
+        font-size: 10px;
+        }
+
+        .below_top3sections p
+        {
+        font-size:8px;
+        }
+
+        .below_top3sections span
+        {
+        font-size: 6px;
+        }
+
+        .open_pos_details_icons img
+        {
+         width:15%;
+        }
+
+        .about_working_here_div {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        }
+
+        .dotted_underlined_partial { 
+         margin-bottom: 15px;
+        }
+
+        .row.about_working_here_details {
+         margin-bottom: 5px; 
+        }
+
+        .row.about_working_here_top {
+        text-align: center;
+         margin-bottom: 5px; 
+        }
+
+        .copyright span
+        {
+            font-size:12px;
+        }
+
+        body
+        {
+        background-color:#fff;
+        }
+
+    }
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
